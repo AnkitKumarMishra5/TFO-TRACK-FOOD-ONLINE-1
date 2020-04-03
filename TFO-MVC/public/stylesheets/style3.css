@@ -1,0 +1,446 @@
+.jumb{
+    width:254px;
+    height: 165px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -10px;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align:top;
+}
+.any{
+    float:right;
+    width:100px;
+    max-width:30%;
+    height: 100px;
+    max-height:10%;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align:top;
+    border-radius: 100%;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+.jumbotron{
+    height: 245px;
+    background-image: radial-gradient(rgba(31,122,61, 0.349),  rgba(31,122,61, 0.527), rgba(31,122,61,1));
+    background-attachment: fixed;
+    width:100%;
+}
+.col-lg-5{
+    margin-left: 60px;
+    overflow:hidden;
+}
+.display{
+    max-width: 538px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 32px;
+}
+.lead{
+    display:block;
+    margin-top:12px;
+    opacity: .7;
+    font-size: 15px;
+    max-width: 538px;
+}
+.read{
+    display: inline-block;
+    margin-top:-10px;
+    opacity: .7;
+    font-size: 15px;
+}
+.stars{
+    margin-top:20px;
+    display:inline-block;
+}
+.rating:first-child{
+    padding-left: 0;
+    padding-right: 35px;
+}
+.rating{
+    display: inline-block;
+    padding: 0 35px;
+    border-right: 1px solid rgba(22, 21, 21, 0.2);
+}
+._4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.fa-star{
+    margin-right: 4px;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+._50{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 12px;
+}
+.card{
+    height: 75%;
+    padding: 5px;
+    margin-bottom:50px;
+}
+.card:hover{
+    box-shadow: 0 0 4px 4px rgba(31,122,61, 0.349);
+    margin: 0 -8px 0 -8px;
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 2%;
+    height:76%;
+}
+.card-img-top{
+    width: 100%;
+    max-width: 100%;
+    height:170px ;
+    max-height: 200px;
+}
+.btn{
+    background-image: radial-gradient(rgba(31,122,61, 0.349),  rgba(31,122,61, 0.527), rgba(31,122,61,1));
+    float:right;
+}
+.right1{
+    margin-top: 21px;
+    position: relative;
+    position: sticky;
+    top: 150px;
+    width: 298px;
+    padding: 26px 10px 0;
+    height: calc(100vh - 392px);
+    transition: height .4s ease;
+    contain: layout;
+}
+.write{
+    color: #7e808c;
+    letter-spacing: -.3px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.cute{
+    margin-top: 47px;
+    opacity: .5;
+    width: 100%;
+    height: 212px;
+}
+.quotes{
+    color: #93959f;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 218px;
+    display:inherit;
+}
+.col-md-8{
+    margin-left:-20px;
+    margin-right:10px;
+}
+.right2{
+    margin-top: 21px;
+    position: relative;
+    position: sticky;
+    top: 150px;
+    width: 298px;
+    padding: 26px 10px 0;
+    height: calc(100vh - 392px);
+    transition: height .4s ease;
+    contain: layout;
+}
+
+.cart1{
+    height: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.cart2{
+    font-size: 13px;
+    color: #686b78;
+    text-transform: uppercase;
+    padding-top: 2px;
+}
+.upper{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 10px;
+    /*display: none;*/
+}
+.pad{
+    padding: 0 16px 0 7px;
+}
+.maggie{
+    margin-left: -4px;
+    margin-right: -6px;
+}
+#abc{
+    margin-top:-55px;
+}
+.pura{
+    position: relative;
+    /* padding: 20px 0; */
+    display: flex;
+    align-items: center;
+    margin-bottom: -60px;
+}
+.naam{
+    display: flex;
+}
+.chhotu{
+    font-size: 1px;
+    color: #339a33;
+    width: 10px;
+    height: 10px;
+    top: 2px;
+    position: relative;
+}
+.now{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 9px;
+    margin-right: 5px;
+}
+.total{
+    width:120px;
+    float: right;
+    align-items: center;
+}
+/* .plus{
+    height: 13px;
+    width: 2px;
+    border: 1px solid #d4d5d9;
+    color: #60b246;
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 30px;
+     position: relative;
+     text-align: center;
+    background-color: #fff;
+    width: 70px!important;
+    font-size: 12px!important; 
+     display: block!important; 
+     box-sizing: inherit; 
+} */
+.add{
+    color: #60b246;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    animation: _1yY_v .2s ease;
+    opacity: 0;
+    transform: translate3d(0,7.5px,0);
+}
+.anni{
+    display: none!important;
+}
+.num{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33.33333%;
+    display: inline-block;
+    opacity: 1;
+    transform: translateZ(0);
+    cursor: pointer;
+    font-size: 150%;
+    font-weight: 600;
+}
+/* .number-input.number-input {
+    border: 1px solid #ced4da;
+    max-width: 35%;
+    border-radius: .25rem;
+    float: left;
+    margin-top: 12%;
+    margin-left: -32%;
+    height: 3%;
+} */
+/* .minus{
+    position: absolute; 
+    left: 0;
+    top: -1; 
+     height:70%;
+    width: 20.33333%;
+     display: inline-block;
+    opacity: 1;
+    transform: translateZ(0);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #60b246;
+} */
+
+.one{
+position: absolute;
+    left: 33.33333%;
+    top: 0;
+    width: 33.33333%;
+    display: inline-block;
+    opacity: 1;
+    cursor: pointer;
+}
+.rate{
+    font-size: 13px;
+    color: #535665;
+    font-size: 13px;
+    color: #535665;
+    text-align: right;
+    width: 45px;
+}
+.lower{
+    min-height: 115px;
+    position: relative;
+}
+.lower1{
+    color: #3d4152;
+    font-size: 15px;
+    font-weight: 600;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.subtotal{
+    font-size:17px;
+    flex:1;
+}
+.rat{
+    color: #bebfc5;
+    margin-right: 10px;
+}
+.extra{
+    font-size: 13px;
+    font-weight: 300;
+    color: #7e808c;
+    margin-top: 2px;
+}
+._1gPB7 {
+    height: 50px;
+    background-color: #60b246;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    margin-top: 28px;
+    text-transform: uppercase;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn{
+    width:  100%;
+    padding:9;
+    margin-top:15px;
+}
+
+.atc{
+    margin-top:18px;
+}
+.quantity{
+    width:50%;
+}
+.boximage{
+    border-radius: 2%;
+    width: 100%;
+    max-width: 100%;
+    height:170px ;
+    max-height: 200px;
+
+}
+
+
+.number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .number-input input[type=number]::-webkit-inner-spin-button,
+  .number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    width:50%;
+  }
+  
+  .number-input {
+    margin-bottom: 3rem;
+  }
+  
+  .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    text-align: center;
+  }
+  
+  .number-input.number-input {
+      border: 1px solid #ced4da;
+      max-width: 35%;
+      border-radius: .25rem;
+      float: left;
+      margin-top: 12%;
+      margin-left: -32%;
+      height:3%;
+  }
+  
+  .number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+  }
+  
+  .number-input.number-input button.minus {
+    padding-left: 10px;
+  }
+  
+  .number-input.number-input button:before,
+  .number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+  }
+  
+  .number-input.number-input input[type=number] {
+    max-width:3em;
+    padding: .2rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+  }
+  
+  @media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+  
+      .number-input.def-number-input.safari_only button:before,
+      .number-input.def-number-input.safari_only button:after {
+        margin-top: -.3rem;
+      }
+    }
+  }
+
+  

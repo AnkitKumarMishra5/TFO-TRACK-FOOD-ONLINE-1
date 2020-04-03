@@ -1,0 +1,322 @@
+body{
+    margin:auto;
+}
+.imagefinal{
+    width:80%;
+    margin: 10px;
+}
+.imagediv{
+    float:left;
+    width:30%;
+}
+.itemname{
+    margin-top:15px;
+    float:left;
+   
+}
+.number-input input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button,
+.number-input input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  width:50%;
+}
+
+.number-input {
+  margin-bottom: 3rem;
+}
+
+.number-input button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  height: 2px;
+  transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+  text-align: center;
+}
+
+.number-input.number-input {
+    border: 1px solid #ced4da;
+    max-width: 35%;
+    border-radius: .25rem;
+    float: left;
+    margin-top: 12%;
+    margin-left: -32%;
+    height:3%;
+}
+
+.number-input.number-input button {
+  width: 2.6rem;
+  height: .7rem;
+}
+
+.number-input.number-input button.minus {
+  padding-left: 10px;
+}
+
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+  width: .7rem;
+  background-color: #495057;
+}
+
+.number-input.number-input input[type=number] {
+  max-width:3em;
+  padding: .2rem;
+  border: 1px solid #ced4da;
+  border-width: 0 1px;
+  font-size: 1rem;
+  height: 2rem;
+  color: #495057;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+
+    .number-input.def-number-input.safari_only button:before,
+    .number-input.def-number-input.safari_only button:after {
+      margin-top: -.3rem;
+    }
+  }
+}
+
+.name2{
+    margin-left:63%;
+}
+.name3{
+    margin-left:60%;
+}
+.name4{
+    margin-left:57%;
+}
+.name5{
+    margin-left:48%;
+}
+.name6{
+    margin-left:68%;
+}
+.nameru{
+  margin-left:68%;
+}
+#onlym{
+  margin-top:60%;
+}
+
+.det{
+    margin-top: 4%;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:3%;
+}
+.formar{
+    margin-bottom: 3%;
+}
+._1gPB7{
+height: 40px;
+background-color: #60b246;
+outline: 0;
+cursor: pointer;
+border: 0;
+color: #fff;
+margin-top: 38px;
+text-transform: uppercase;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-align: center;
+align-items: center;
+-ms-flex-pack: center;
+justify-content: center;
+font-size: 16px;
+font-weight: 600;
+width:  100%;
+    padding:9;
+    margin-top:15px
+}
+#dcbtn{
+  width: -webkit-fill-available;
+}
+#dcbtn:hover{
+  border: 1px solid rgba(31,122,61, 0.349);
+}
+#ccbtn{
+  width: -webkit-fill-available;
+}
+#ccbtn:hover{
+  border: 1px solid rgba(31,122,61, 0.349);
+}
+.card-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 48px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 0 auto 1.5em;
+}
+.card-container input {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 0.8em 1em;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+} 
+.card-type {
+    width: 40px;
+    height: 28px;
+    /* background: url(../images/cards.png); */
+    background-position: 0 -145px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+} 
+.card-type.mastercard { background-position: 0 0; }
+
+.card-type.visa { background-position: 0 -57px; }
+
+.card-type.amex { background-position: 0 -28px; }
+
+.card-type.discover { background-position: 0 -86px; }
+
+.card-valid i.fa {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    line-height: 44px;
+    font-size: 1.3em;
+    color: #ccc; 
+} 
+.card-valid.active i.fa{ color: #42ca7c; } 
+.card-details {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 1.5em;
+	-webkit-transition: 300ms ease;
+	-moz-transition: 300ms ease; 
+	transition: 300ms ease;
+} 
+.card-details input { 
+	width: 100%;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 0.6em 1em; 
+    outline: none;
+    box-sizing: border-box;
+} 
+.card-details input.error {
+	border: 1px solid #c2313c;
+	box-shadow: 0 4px 8px 0 rgba(238,76,87,0.3);
+	outline: none;
+} 
+.card-details .expiration {
+	width: 50%;
+	float: left;
+	padding-right: 5%;
+} 
+.card-details .cvv {
+	width: 45%;
+	float: left;
+}
+.Pay-right input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    -webkit-appearance: none;
+    background: #16a085;
+    border: 2px solid #16a085;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all; 
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.Pay-right input[type="submit"]:hover {
+    background: #FFEB3B;
+    color: #16a085;
+}
+
+.border{
+    box-shadow: 0 4px 4px 0 rgba(2, 68, 2, 0.673), 0 12px 12px 0 rgba(8, 107, 28, 0.476);
+}
+
+button.btn.btn-lg.pay-method:hover {
+  background-color: rgba(31,122,61, 0.349);
+} 
+.modal-content{
+  box-shadow: 0 4px 4px 0 rgba(2, 68, 2, 0.673), 0 12px 12px 0 rgba(8, 107, 28, 0.476);
+}
+#paybtn1{
+  margin-top:8px;
+}
+#paybtn1:hover{
+  background-color: rgba(31,122,61, 0.349);
+}
+#paybtn2{
+  margin-top:8px;
+}
+#paybtn2:hover{
+  background-color: rgba(31,122,61, 0.349);
+}
+.input{
+  font-size:16px;
+  height:45px;
+}
+.suggestion{
+  display: inline;
+  position: relative;
+  height:40px;
+  font-size:15px;
+}
+.done:hover{
+  background-color: rgba(31,122,61, 0.349);
+  border: 1px solid rgba(31,122,61, 0.349);
+}
+.red{
+  color:red;
+  font-size:18px;
+}
+input[type="text"]:focus{
+border: 2px solid rgba(31,122,61, 0.349);
+}
+.input:focus{
+  border: 2px solid rgba(31,122,61, 0.349);
+}
+.COD{
+  width: -webkit-fill-available;
+}
+.COD:hover{
+  border: 1px solid rgba(31,122,61, 0.349);
+}
+.info{
+  font-size: 20px;
+
+}

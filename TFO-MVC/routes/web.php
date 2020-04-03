@@ -30,6 +30,7 @@ Route::get('/contact', function () {
 Route::get('/checkout', function () {
     return view('pages.checkout');
 });
+//ORDERS ROUTE
 Route::get('/orders', function () {
     return view('pages.orders');
 });

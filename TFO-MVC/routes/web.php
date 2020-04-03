@@ -11,15 +11,22 @@
 |
 */
 
+//LOGIN ROUTE
 Route::get('/login', function () {
     return view('pages.login');
 });
+
+//ABOUT ROUTE
 Route::get('/about', function () {
     return view('pages.about');
 });
+
+//CONTACT ROUTE
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+//CHECKOUT ROUTE
 Route::get('/checkout', function () {
     return view('pages.checkout');
 });
